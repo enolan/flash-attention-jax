@@ -13,8 +13,8 @@ from einops import rearrange
 EPSILON = 1e-10
 MASK_VALUE = -1e10
 
-Q_CHUNK_SIZE = 1024
-K_CHUNK_SIZE = 1024
+Q_CHUNK_SIZE = 1032
+K_CHUNK_SIZE = 1032
 
 # flash attention
 
